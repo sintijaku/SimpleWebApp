@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200303141758_updatedModel.cs" />
+    <Compile Remove="Migrations\20200303141758_updatedModel.Designer.cs" />
+    <Compile Remove="Migrations\20200303143511_InitialMigration.cs" />
+    <Compile Remove="Migrations\20200303143511_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200303144023_InitialMigration.cs" />
+    <Compile Remove="Migrations\20200303144023_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200303145301_SecondMigration.cs" />
+    <Compile Remove="Migrations\20200303145301_SecondMigration.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="4.4.1" />
+    <PackageReference Include="GenFu" Version="1.6.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+
+
+</Project>
